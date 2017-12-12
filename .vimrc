@@ -1,18 +1,18 @@
 "设置Vundle插件管理工具
 set nocompatible
 filetype off
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-Plugin 'gmarik/Vundle.vim'
-call vundle#end()
+"set rtp+=~/.vim/bundle/Vundle.vim
+"call vundle#begin()
+"Plugin 'gmarik/Vundle.vim'
+"call vundle#end()
 filetype plugin indent on
 
 "使用ctrl+jklh 进行多窗口切换
 "split navigations
-nnoremap <C-J> <C-W><C-J>
-nnoremap <C-K> <C-W><C-K>
+nnoremap <C-K> <C-W><C-J>
+nnoremap <C-I> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
-nnoremap <C-H> <C-W><C-H>
+nnoremap <C-J> <C-W><C-H>
 
 "设置缩进规则
 
